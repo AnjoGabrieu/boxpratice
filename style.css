@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(assets/img/building-1914309.jpg);
+    background-position: center center;
+    font-family: 'Ubuntu';
+}
+
+.container-box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    -moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.box:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+.img-area{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.price-area{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-area{
+    margin-top: 20px;
+    width: 150  px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #595959;
+    color: #D9D9D9;
+    letter-spacing: 3px;
+    transition: background-color .5s, color .5s, letter-spacing .5s;
+    outline: none;
+}
+
+#button:hover{
+    background-color:#D9D9D9;
+    color: #0D0D0D;
+    letter-spacing: 1px;   
+}
+
+.name-item{
+    margin-top: 20px;
+    width: 160px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-name{
+    font-size: 18px;
+}
+
+
+#tenis-img{
+    
+    border-radius: 20px;
+}
+
+
